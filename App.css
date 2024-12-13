@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+::-webkit-scrollbar{
+   background-color: rgb(168, 83, 37); /*#FDF1D9; */
+  border: 1px solid #282c34;;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  box-shadow: 3px 2px 2px 5px rgba(0, 0, 0, 0.39);
+  width: 3vw;
+ background-color: #B98951;
+}
+::selection{
+  background-color: #B98951;
+  color: white;
+}
+ img::selection{
+  background: #61dafb;
+ }
+
+ .div-contact{
+ font-family: 'Montserrat';
+ }
+ .h1-txt{
+  font-family: 'Montserrat';
+ }
+ .paragraph{
+  font-family: 'Montserrat';
+ }
+ .ArabicaCoffee{
+  transition: 400ms;
+ }
+ .ArabicaCoffee:hover{
+  scale: 1.2;
+  cursor:pointer;
+
+ }
+ .RobustaCoffee{
+  transition: 400ms;
+ }
+ .RobustaCoffee:hover{
+  scale: 1.2;
+  cursor:pointer;
+
+ }
+ .LibericaCoffee{
+  transition: 400ms;
+ }
+ .LibericaCoffee:hover{
+  scale: 1.2;
+  cursor:pointer;
+ }
+ .ArabicaWhite{
+  transition: 400ms;
+ }
+ .ArabicaWhite:hover{
+  scale: 1.2;
+  cursor:pointer;
+ }
+ .New-Label{
+  background-color:yellow;
+  border-end-end-radius: 20px;
+  border-start-start-radius: 20px;
+width: 75px;
+position: relative;
+left: 289px;
+top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 2s ease,scale 1s ease,background-color 2s ease ,color 2s ease;
+}
+
+ .New-Label::selection{
+  background-color: black;
+  color:yellow;
+ }
+ .New-Label:hover{
+  transform: rotate(360deg);
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+  color: yellow;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 25px;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 5px;
+}
+.New-Label:hover::selection{
+  background-color: yellow;
+  color: black;
+}
+.selectionofppl{
+  border-top: none;
+  width:20vw;
+  font-size: 1.2em;
+  font-family: 'Montserrat';
+  height: 5vh;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid gray;
+ margin-left: 13em;
+ margin-top: 5em;
+
+}
+.selectionofppl:hover{
+  cursor:pointer;
+}
+.DateSelection{
+  border-top: none;
+  width:20vw;
+  font-size: 1.2em;
+  font-family: 'Montserrat';
+  height: 5vh;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid gray;
+  margin-left: 34em;
+  position: relative;
+  bottom: 2.2em;
+}
+.DateSelection:hover{
+  cursor:pointer;
+}
+
+.image-course-coffee {
+transition:  1s;
+}
+.image-course-coffee:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
+button::selection{
+  background-color: white;
+  color:black;
+}
+.Uma{
+  transition:  400ms;
+}
+.Uma:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
+.Tom{
+  transition:  400ms;
+
+}
+.Tom:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
+.Jonas{
+  transition:  400ms;
+
+}
+.Jonas:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
+.John{
+  transition:  400ms;
+
+}
+.John:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
+.Ed{
+  transition:  400ms;
+
+}
+.Ed:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
+
+
+@media (max-width: 780px){ 
+ 
+  .MainHome {
+    width: 60rem;
+    position: relative;
+    height:120rem;
+    left: 20px;
+    margin-bottom: 220px;
+  }
+
+  .Dots {
+    width: 60rem;
+    position: relative;
+    height:70rem;
+    right: 190em;
+    margin-bottom: 220px;
+    
+  }
+  
+}
+
+@media (max-width: 1200px){ 
+ 
+  .MainHome {
+    width: 620rem;
+    position: relative;
+    right: 10rem;
+    height:70rem;
+    margin-bottom: 220px;
+
+  }
+}
+
+@media (max-width: 780px) {
+  .toparea {
+    font-size: 21px;
+  }
+  .Reserveyourtable .selectionofppl{
+    position: relative;
+    right: 160px;
+  }
+  .Reserveyourtable div{
+    position: relative;
+    right: 120px;
+    bottom: 3px;
+     
+  }
+ 
+  
+  
+  
+}
+
+@media (max-width: 780px) {
+  .uma {
+    position: relative;
+    left: 220px;
+    bottom: 3px;
+  }
+  
+  .logostyle {
+    position: relative;
+    right: 28em;
+
+
+  }
+  
+}
+
+
+.Arabica{
+  transition: 400ms;
+ }
+ .Arabica:hover{
+  scale: 1.2;
+  cursor:pointer;
+
+ }
+ .Robusta-coffee{
+  transition: 400ms;
+ }
+ .Robusta-coffee:hover{
+  scale: 1.2;
+  cursor:pointer;
+
+ }
+ 
+ .sold-label {
+  background-color: #3498db;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 75px;
+  position: relative;
+  left: 289px;
+  bottom: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 2s ease, background-color 2s ease, color 2s ease;
+  color: #fff;
+}
+
+.sold-label:hover {
+  transform: rotate(360deg) scale(1.1);
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 5px;
+}
+
+.sold-label::selection {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.sold-label:hover::selection {
+  background-color: #3498db;
+  color: #fff;
+}

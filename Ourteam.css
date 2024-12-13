@@ -1,0 +1,40 @@
+/* Team styles */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2em;
+    padding: 2em;
+  }
+  
+  .team-member {
+    border: 2px solid gray;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .team-image {
+    width: 13vw;
+    height: 35vh;
+    transition: transform 400ms;
+  }
+  
+  .team-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .team-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .team-image {
+      width: 50vw;
+    }
+  }

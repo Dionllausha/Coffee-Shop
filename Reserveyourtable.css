@@ -1,0 +1,57 @@
+
+.react-aria-TimeField {
+  color: black;
+  position: relative;
+  left: 68em;
+  bottom: 5.2em;
+  height: 5vh;
+ font-family: 'Montserrat';
+}
+
+.react-aria-DateInput {
+  display: flex;
+  padding: 4px;
+  background: #ffffff;
+  white-space: nowrap;
+  forced-color-adjust: none;
+  position: relative;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid gray;
+  border-top: none;
+  width:20vw;
+  height: 4vh;
+
+  font-size: 1.2em;
+
+  &[data-focus-within] {
+    outline: 2px solid black;
+    outline-offset: -1px;
+    border-top: none;
+  
+  }
+}
+
+.react-aria-DateSegment {
+  padding: 0 2px;
+  font-variant-numeric: tabular-nums;
+  text-align: end;
+  color: black;
+
+  &[data-type=literal] {
+    padding: 0;
+  }
+
+  &[data-placeholder] {
+    color: black;
+    font-style: italic;
+  }
+
+  &:focus {
+    color: white;
+    background: black;
+    outline: none;
+    border-radius: 4px;
+    caret-color: transparent;
+  }
+}
